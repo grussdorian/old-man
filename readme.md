@@ -13,6 +13,27 @@ Just send a voice message like this to the number (explained how to get one) and
 
 # Run
 
+**Note:** The server must have a gpu with sufficient VRAM available. Clone Open AI's Whisper (see https://github.com/openai/whisper) on the server
+![img4](ico/open-ai.png?raw=true "img4")
+
+```console
+pip install git+https://github.com/openai/whisper.git
+```
+
+### **MacOS**
+
+using Homebrew (https://brew.sh/)
+
+```console
+foo@bar:~/old-man$ brew install ffmpeg
+```
+
+### **Ubuntu or Debian**
+
+```console
+foo@bar:~/old-man$ sudo apt update && sudo apt install ffmpeg
+```
+
 ```console
 foo@bar:~/$ git clone https://github.com/grussdorian/old-man
 foo@bar:~/$ cd old-man
