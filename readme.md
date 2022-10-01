@@ -1,6 +1,6 @@
 # Old-man - a speech to text service for converting whatsapp voice messages to text
 
-![Logo](logo.png?raw=true "App logo")
+![Logo](ico/logo.png?raw=true "App logo")
 
 ### **Important notice**
 
@@ -9,7 +9,7 @@ This is just a proof of concept. Deployment instrunctions should be carefully fo
 # Usage
 
 Just send a voice message like this to the number (explained how to get one) and you'll get a transcript of your voice message
-![img3](img3.png?raw=true "img3")
+![img3](ico/img3.png?raw=true "img3")
 
 # Run
 
@@ -90,10 +90,10 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
 **Keep in mind that the validity of port forwarding is only 3 hours**
 
 Copy the forwaded url and paste it in twilio's console
-![img1](img1.png?raw=true "img1")
+![img1](ico/img1.png?raw=true "img1")
 
 Send the specified message to the number shown
-![img2](img2.png?raw=true "img2")
+![img2](ico/img2.png?raw=true "img2")
 
 ## Further Development
 
