@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
-const port = 8085 || process.env.PORT
-app.listen(8085)
+const port = process.env.PORT || 8085
+app.listen(port)
 
 app.use('', (req, res) => {
   console.log('got a request')
