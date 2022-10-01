@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nodemon run src/index.js",
+    "build": "echo 'No build script has been added yet!'",
     "start": "node src/index.js"
   },
   "author": "Hardik Ghoshal",
