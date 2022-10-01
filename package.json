@@ -10,7 +10,12 @@
   "author": "Hardik Ghoshal",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1"
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "twilio": "^3.82.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
