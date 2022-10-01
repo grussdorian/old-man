@@ -14,6 +14,7 @@ Just send a voice message like this to the number (explained how to get one) and
 # Run
 
 **Note:** The server must have a gpu with sufficient VRAM available. Clone Open AI's Whisper (see https://github.com/openai/whisper) on the server
+
 ![img4](ico/open-ai.png?raw=true "img4")
 
 ```console
