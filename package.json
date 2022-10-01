@@ -4,12 +4,15 @@
   "description": "a stt using open AI's whisper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nodemon run src/index.js",
     "start": "node src/index.js"
   },
   "author": "Hardik Ghoshal",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
