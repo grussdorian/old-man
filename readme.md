@@ -26,7 +26,7 @@ Install ngrok and twilio cli from respective package manager
 ```console
 foo@bar:~/old-man$ brew tap twilio/brew && brew install twilio
 foo@bar:~/old-man$ twilio login
-brew install ngrok
+foo@bar:~/old-man$ brew install ngrok
 ```
 
 ### **Debian / apt repo / snap package (ngrok not available as snap package)**
@@ -34,7 +34,7 @@ brew install ngrok
 ```console
 foo@bar:~/old-man$ sudo apt install twilio
 foo@bar:~/old-man$ twilio login
-sudo snap install ngrok
+foo@bar:~/old-man$ sudo snap install ngrok
 ```
 
 **Build**
