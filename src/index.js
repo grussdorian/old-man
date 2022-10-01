@@ -5,6 +5,6 @@ app.listen(port)
 
 app.get('/webhooks', (req, res) => {
   console.log('got a request')
-  console.log(req.params)
+  console.log(req.query)
   res.status(200).send(req.query["hub.challenge"])
 })
