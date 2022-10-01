@@ -5,7 +5,6 @@ app.listen(port)
 
 app.use('', (req, res) => {
   console.log('got a request')
-  console.log(req)
-
-  res.status(200).send("Okay")
+  //console.log(req)
+  res.status(200).send(req.query.hub.challenge)
 })
